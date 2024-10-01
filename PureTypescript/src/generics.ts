@@ -8,3 +8,24 @@ function createGenericType<T>(arg: T): T {
 }
 
 createGenericType("pritesh");
+
+// generic functions
+
+function myProducts<T>(products: T[]): T {
+  let myNum = 2;
+  return products[myNum];
+}
+
+// generic functions with arrow functions
+
+function myProductsArrow<T>(products: T[]): T {
+  let myNum = 2;
+  return products[myNum];
+}
+
+const myProductsArr = <T>(products: T[]): T => {
+  let myNum = 4;
+  return products[myNum];
+};
+
+
