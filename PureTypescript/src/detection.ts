@@ -47,3 +47,7 @@ function isBirdy(petty: Fish | Birdy): petty is Birdy {
 }
 
 /* ********************************************************************************* */
+
+// Descriminated Union
+
+// little bit attention seeker topic but u can undesrstand it by following docs.
